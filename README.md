@@ -1,0 +1,1 @@
+This repository includes code for E155 Lab 2 and its testbench. It also includes the Radiant project and the AI Prototype Radiant project. 
