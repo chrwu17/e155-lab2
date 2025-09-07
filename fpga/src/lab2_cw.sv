@@ -18,3 +18,4 @@ module lab2_cw (
     always_comb begin
         sum = s1 + s2; // calculate sum of s1 and s2
     end
+endmodule
