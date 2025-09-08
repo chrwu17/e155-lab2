@@ -8,18 +8,15 @@
 // such that the human eye cannot detect the switching, and it appears that both displays are on at the same time.
 
 module timeMultiplexer (
+    input clk,
     input logic [3:0] s1, s2,
     output logic [6:0] seg,
-    output logic an1, an2);
+    output logic an1, an2,
+    output logic signal);
 
-    logic signal; // select signal to choose between s1 and s2
-    logic [3:0] sevenSegmentSignal;
-    logic int_osc;
     logic [24:0] counter = 0;
 
-    HSOSC hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(int_osc));
-
-    always_ff @(posedge int_osc) begin
+    always_ff @(posedge clk) begin
         counter <= counter + 1;
         if (counter == 48000) begin
             counter <= 0;
@@ -27,14 +24,11 @@ module timeMultiplexer (
             if (signal) begin
                 an1 <= 1; // turn off an1
                 an2 <= 0; // turn on an2
-                sevenSegmentSignal <= s2;
             end else begin
                 an1 <= 0; // turn on an1
                 an2 <= 1; // turn off an2
-                sevenSegmentSignal <= s1;
             end
 
     end
     end
-    sevenSegmentDisplay ssd (.s(sevenSegmentSignal), .seg(seg));
 endmodule
