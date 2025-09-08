@@ -24,14 +24,16 @@ module timeMultiplexer (
             counter <= 0;
             signal <= ~signal; 
             if (signal) begin
-                an0 <= 1; // turn off an0
-                an1 <= 0; // turn on an1
-                sevenSegmentDisplay seg1 (.s(s2), .seg(seg)); // drive seg with s2
-            end else begin
-                an0 <= 0; // turn on an0
                 an1 <= 1; // turn off an1
-                sevenSegmentDisplay seg0 (.s(s1), .seg(seg)); // drive seg with s1
+                an2 <= 0; // turn on an2
+                sevenSegmentSignal = s2;
+            end else begin
+                an1 <= 0; // turn on an1
+                an2 <= 1; // turn off an2
+                sevenSegmentSignal = s1;
             end
+
     end
+    sevenSegmentDisplay ssd (.s(sevenSegmentSignal), .seg(seg));
     end
 endmodule

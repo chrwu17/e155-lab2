@@ -10,10 +10,10 @@
 module lab2_cw (
     input logic [3:0] s1, s2, // dip switches
     output logic [6:0] seg, // seven-segment display
-    output logic an0, an1,
-    output logic [4:0] sum); // anode control for dual seven-segment display
+    output logic an1, an2, // anodes for the two displays
+    output logic [4:0] sum); // 5 LEDs to display sum
 
-    timeMultiplexer tm (.s1(sw[3:0]), .s2(sw[3:0]), .seg(seg), .an0(an0), .an1(an1));
+    timeMultiplexer tm (.s1(sw[3:0]), .s2(sw[3:0]), .seg(seg), .an1(an1), .an2(an2));
 
     always_comb begin
         sum = s1 + s2; // calculate sum of s1 and s2
