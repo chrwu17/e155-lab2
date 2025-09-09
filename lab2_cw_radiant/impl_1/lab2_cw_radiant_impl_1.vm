@@ -1,5 +1,5 @@
 // Verilog netlist produced by program LSE :  version Radiant Software (64-bit) 2025.1.0.39.0
-// Netlist written on Mon Sep  8 19:47:56 2025
+// Netlist written on Mon Sep  8 20:55:26 2025
 // Source file index table: 
 // Object locations will have the form @<file_index>(<first_ line>[<left_column>],<last_line>[<right_column>])
 // file 0 "c:/users/chris/onedrive/desktop/wu-e155-lab2/e155-lab2/fpga/src/adder.sv"

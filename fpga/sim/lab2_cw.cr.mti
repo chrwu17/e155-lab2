@@ -33,13 +33,6 @@ Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
 Top level modules:
 	sevenSegmentDisplay_testbench
 
-} {} {}} C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/timeMultiplexer.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/timeMultiplexer.sv
-Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
--- Compiling module timeMultiplexer
-
-Top level modules:
-	timeMultiplexer
-
 } {} {}} C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegMux.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegMux.sv
 Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
 -- Compiling module sevenSegMux
