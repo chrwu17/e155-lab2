@@ -40,15 +40,17 @@
 -use_io_insertion 1
 
 -resolve_mixed_drivers 0
--path "C:/lscc/radiant/2025.1/ispfpga/ice40tp/data" "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1" "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant" "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/source/impl_1"
+-path "C:/lscc/radiant/2025.1/ispfpga/ice40tp/data" "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1" "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant" "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/src"
 -ver "C:/lscc/radiant/2025.1/ip/pmi/pmi_iCE40UP.v"
 -lib pmi -vhd "C:/lscc/radiant/2025.1/ip/pmi/pmi_iCE40UP.vhd"
--sver "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/source/impl_1/lab2_cw.sv"
-"C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/source/impl_1/sevenSegmentDisplay.sv"
-"C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/source/impl_1/timeMultiplexer.sv"
+-sver "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/src/adder.sv"
+"C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/src/lab2_cw.sv"
+"C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/src/sevenSegmentDisplay.sv"
+"C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/src/sevenSegMux.sv"
+"C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/src/timeMultiplexer.sv"
 
 
--path "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant"
+-path "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant"
 -top lab2_cw
 -udb "lab2_cw_radiant_impl_1_rtl.udb"
 -output_hdl "lab2_cw_radiant_impl_1.vm"

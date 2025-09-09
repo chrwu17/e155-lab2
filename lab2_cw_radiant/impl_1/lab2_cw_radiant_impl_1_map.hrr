@@ -9,28 +9,42 @@ Report for cell lab2_cw
                                 LUTCCU	         26        100.0
                                  IOREG	          2        100.0
                                  IOBUF	         22        100.0
-                                PFUREG	         30        100.0
+                                PFUREG	         26        100.0
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-                       timeMultiplexer	          1        85.5
+                                 adder	          1        12.7
+                           sevenSegMux	          1         7.3
+                   sevenSegmentDisplay	          1        12.7
+                       timeMultiplexer	          1        65.5
+---------------------------------------------------
+Report for cell sevenSegmentDisplay
+   Instance path: lab2_cw/ssd
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          7        12.7
+                               LUTGATE	          7        24.1
 ---------------------------------------------------
 Report for cell timeMultiplexer
    Instance path: lab2_cw/tm
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                  IOLGC	       2.00        100.0
-                                  LUT4	         47        85.5
-                               LUTGATE	         21        72.4
+                                  LUT4	         36        65.5
+                               LUTGATE	         10        34.5
                                 LUTCCU	         26        100.0
                                  IOREG	          2        100.0
-                                PFUREG	         30        100.0
-SUB MODULES
-                                  cell	      count    LUT4 Usage(%)
-                   sevenSegmentDisplay	          1        12.7
+                                PFUREG	         26        100.0
 ---------------------------------------------------
-Report for cell sevenSegmentDisplay
-   Instance path: lab2_cw/tm/ssd
+Report for cell adder
+   Instance path: lab2_cw/a
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                   LUT4	          7        12.7
                                LUTGATE	          7        24.1
+---------------------------------------------------
+Report for cell sevenSegMux
+   Instance path: lab2_cw/ssm
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          4         7.3
+                               LUTGATE	          4        13.8

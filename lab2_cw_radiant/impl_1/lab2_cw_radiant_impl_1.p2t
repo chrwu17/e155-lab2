@@ -1,6 +1,6 @@
 -w
 -gui
--msgset "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/promote.xml"
+-msgset "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/promote.xml"
 -n 1
 -t 1
 -s 1

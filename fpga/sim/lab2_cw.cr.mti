@@ -1,0 +1,64 @@
+C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/adder.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/adder.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/lab2_cw_testbench.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/lab2_cw_testbench.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module lab2_cw_testbench
+
+Top level modules:
+	lab2_cw_testbench
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/timeMultiplexer_testbench.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/timeMultiplexer_testbench.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module timeMultiplexer_testbench
+
+Top level modules:
+	timeMultiplexer_testbench
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegMux_testbench.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegMux_testbench.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module sevenSegMux_testbench
+
+Top level modules:
+	sevenSegMux_testbench
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegmentDisplay_testbench.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegmentDisplay_testbench.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module sevenSegmentDisplay_testbench
+
+Top level modules:
+	sevenSegmentDisplay_testbench
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/timeMultiplexer.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/timeMultiplexer.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module timeMultiplexer
+
+Top level modules:
+	timeMultiplexer
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegMux.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegMux.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module sevenSegMux
+
+Top level modules:
+	sevenSegMux
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegmentDisplay.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegmentDisplay.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module sevenSegmentDisplay
+
+Top level modules:
+	sevenSegmentDisplay
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/adder_testbench.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/adder_testbench.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module adder_testbench
+
+Top level modules:
+	adder_testbench
+
+} {} {}}

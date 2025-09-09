@@ -5,10 +5,10 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2025 Lattice Semiconductor Corporation,  All rights reserved.
-Sun Sep  7 20:16:55 2025
+Mon Sep  8 19:47:51 2025
 
 
-Command Line:  C:\lscc\radiant\2025.1\ispfpga\bin\nt64\synthesis.exe -f C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1/lab2_cw_radiant_impl_1_lattice.synproj -logfile lab2_cw_radiant_impl_1_lattice.srp -gui -msgset C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/promote.xml 
+Command Line:  C:\lscc\radiant\2025.1\ispfpga\bin\nt64\synthesis.exe -f C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1/lab2_cw_radiant_impl_1_lattice.synproj -logfile lab2_cw_radiant_impl_1_lattice.srp -gui -msgset C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/promote.xml 
 
 INFO <35002000> - synthesis: Lattice Synthesis Engine launched.
 
@@ -111,15 +111,17 @@ The -comp option is FALSE.
 The -syn option is FALSE.
 
 Output HDL filename: lab2_cw_radiant_impl_1.vm
--path C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant (searchpath added)
--path C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1 (searchpath added)
--path C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/source/impl_1 (searchpath added)
+-path C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/src (searchpath added)
+-path C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant (searchpath added)
+-path C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1 (searchpath added)
 -path C:/lscc/radiant/2025.1/ispfpga/ice40tp/data (searchpath added)
 Mixed language design
 Verilog design file: C:/lscc/radiant/2025.1/ip/pmi/pmi_iCE40UP.v
-Verilog design file: C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/source/impl_1/lab2_cw.sv
-Verilog design file: C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/source/impl_1/sevenSegmentDisplay.sv
-Verilog design file: C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/source/impl_1/timeMultiplexer.sv
+Verilog design file: C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/src/adder.sv
+Verilog design file: C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/src/lab2_cw.sv
+Verilog design file: C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/src/sevenSegmentDisplay.sv
+Verilog design file: C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/src/sevenSegMux.sv
+Verilog design file: C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/src/timeMultiplexer.sv
 VHDL library: pmi
 VHDL design file: C:/lscc/radiant/2025.1/ip/pmi/pmi_iCE40UP.vhd
 WARNING <35935050> - synthesis: input port TRIM9 is not connected on this instance. VDB-5050
@@ -174,21 +176,25 @@ INFO <35901328> - synthesis: c:/lscc/radiant/2025.1/ip/pmi/pmi_ice40up.v(16): an
 INFO <35901328> - synthesis: c:/lscc/radiant/2025.1/ip/pmi/pmi_ram_dq_be.v(45): analyzing included file c:/lscc/radiant/2025.1/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v. VERI-1328
 INFO <35901328> - synthesis: c:/lscc/radiant/2025.1/ip/pmi/pmi_ram_dq_be.v(46): analyzing included file c:/lscc/radiant/2025.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v. VERI-1328
 INFO <35901328> - synthesis: c:/lscc/radiant/2025.1/ip/pmi/pmi_ice40up.v(17): analyzing included file c:/lscc/radiant/2025.1/ip/pmi/pmi_dsp.v. VERI-1328
-Analyzing Verilog file c:/users/chris/onedrive/desktop/wu-e155-lab2/lab2_cw_radiant/source/impl_1/lab2_cw.sv. VERI-1482
-Analyzing Verilog file c:/users/chris/onedrive/desktop/wu-e155-lab2/lab2_cw_radiant/source/impl_1/sevensegmentdisplay.sv. VERI-1482
-Analyzing Verilog file c:/users/chris/onedrive/desktop/wu-e155-lab2/lab2_cw_radiant/source/impl_1/timemultiplexer.sv. VERI-1482
+Analyzing Verilog file c:/users/chris/onedrive/desktop/wu-e155-lab2/e155-lab2/fpga/src/adder.sv. VERI-1482
+Analyzing Verilog file c:/users/chris/onedrive/desktop/wu-e155-lab2/e155-lab2/fpga/src/lab2_cw.sv. VERI-1482
+Analyzing Verilog file c:/users/chris/onedrive/desktop/wu-e155-lab2/e155-lab2/fpga/src/sevensegmentdisplay.sv. VERI-1482
+Analyzing Verilog file c:/users/chris/onedrive/desktop/wu-e155-lab2/e155-lab2/fpga/src/sevensegmux.sv. VERI-1482
+Analyzing Verilog file c:/users/chris/onedrive/desktop/wu-e155-lab2/e155-lab2/fpga/src/timemultiplexer.sv. VERI-1482
 Analyzing VHDL file c:/lscc/radiant/2025.1/ip/pmi/pmi_ice40up.vhd. VHDL-1481
 Analyzing VHDL file c:/lscc/radiant/2025.1/ip/pmi/pmi_ice40up.vhd
 
 INFO <35921014> - synthesis: c:/lscc/radiant/2025.1/ip/pmi/pmi_ice40up.vhd(4): analyzing package components. VHDL-1014
-INFO <35921504> - synthesis: The default VHDL library search path is now "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1". VHDL-1504
+INFO <35921504> - synthesis: The default VHDL library search path is now "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1". VHDL-1504
 Top module language type = Verilog.
 Top module name (Verilog, mixed language): lab2_cw
-INFO <35901018> - synthesis: c:/users/chris/onedrive/desktop/wu-e155-lab2/lab2_cw_radiant/source/impl_1/lab2_cw.sv(10): compiling module lab2_cw. VERI-1018
-INFO <35901018> - synthesis: c:/users/chris/onedrive/desktop/wu-e155-lab2/lab2_cw_radiant/source/impl_1/timemultiplexer.sv(10): compiling module timeMultiplexer. VERI-1018
+INFO <35901018> - synthesis: c:/users/chris/onedrive/desktop/wu-e155-lab2/e155-lab2/fpga/src/lab2_cw.sv(10): compiling module lab2_cw. VERI-1018
 INFO <35901018> - synthesis: C:/lscc/radiant/2025.1/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v(756): compiling module HSOSC. VERI-1018
-WARNING <35901209> - synthesis: c:/users/chris/onedrive/desktop/wu-e155-lab2/lab2_cw_radiant/source/impl_1/timemultiplexer.sv(23): expression size 32 truncated to fit in target size 25. VERI-1209
-INFO <35901018> - synthesis: c:/users/chris/onedrive/desktop/wu-e155-lab2/lab2_cw_radiant/source/impl_1/sevensegmentdisplay.sv(8): compiling module sevenSegmentDisplay. VERI-1018
+INFO <35901018> - synthesis: c:/users/chris/onedrive/desktop/wu-e155-lab2/e155-lab2/fpga/src/timemultiplexer.sv(10): compiling module timeMultiplexer. VERI-1018
+WARNING <35901209> - synthesis: c:/users/chris/onedrive/desktop/wu-e155-lab2/e155-lab2/fpga/src/timemultiplexer.sv(18): expression size 32 truncated to fit in target size 25. VERI-1209
+INFO <35901018> - synthesis: c:/users/chris/onedrive/desktop/wu-e155-lab2/e155-lab2/fpga/src/sevensegmux.sv(8): compiling module sevenSegMux. VERI-1018
+INFO <35901018> - synthesis: c:/users/chris/onedrive/desktop/wu-e155-lab2/e155-lab2/fpga/src/sevensegmentdisplay.sv(8): compiling module sevenSegmentDisplay. VERI-1018
+INFO <35901018> - synthesis: c:/users/chris/onedrive/desktop/wu-e155-lab2/e155-lab2/fpga/src/adder.sv(6): compiling module adder. VERI-1018
 [Parameter Setting Section Start]
 
 	[Parameter Settings for Instance(s): hf_osc]
@@ -202,9 +208,9 @@ INFO <35901018> - synthesis: c:/users/chris/onedrive/desktop/wu-e155-lab2/lab2_c
 INFO <35002039> - synthesis: Special Primitives IFD1P3AZ and OFD1P3AZ for ThunderPlus are synthesized using IOL_B.
 
 ################### Begin Area Report (lab2_cw)######################
-Number of register bits => 30 of 5280 (0 % )
+Number of register bits => 26 of 5280 (0 % )
 CCU2 => 13
-FD1P3XZ => 30
+FD1P3XZ => 26
 HSOSC_CORE => 1
 IB => 8
 IOL_B => 2
@@ -216,21 +222,22 @@ Number of even-length carry chains : 0
 
 ################### Begin Clock Report ######################
 Clock Nets
-Number of Clocks: 0
+Number of Clocks: 1
+  Net : clk, loads : 0
 Clock Enable Nets
 Number of Clock Enables: 0
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : tm/int_osc_enable_2, loads : 40
-  Net : tm/int_osc, loads : 32
-  Net : tm/n234, loads : 14
-  Net : tm/n105[23], loads : 14
+  Net : tm/clk_enable_2, loads : 36
   Net : tm/n105[24], loads : 14
-  Net : tm/n232, loads : 13
+  Net : tm/n105[23], loads : 14
+  Net : tm/n332, loads : 14
+  Net : tm/n330, loads : 13
   Net : tm/n105[21], loads : 13
   Net : tm/n105[22], loads : 13
-  Net : tm/n230, loads : 12
+  Net : tm/n328, loads : 12
   Net : tm/n105[19], loads : 12
+  Net : tm/n105[20], loads : 12
 ################### End Clock Report ##################
 
 ################### Begin Constraint Report ######################
@@ -245,4 +252,4 @@ Peak Memory Usage: 92 MB
 Total CPU Time: 4 secs 
 Total REAL Time: 5 secs 
 --------------------------------------------------------------
-Checksum -- synthesis -- netlist: d92478ae6e39ab5b1f47caf1b8ebb7b3978c7b26
+Checksum -- synthesis -- netlist: 9613501dc0857772b1e6dd985b1e98b2fc4f6e0

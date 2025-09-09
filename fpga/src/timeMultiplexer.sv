@@ -9,8 +9,6 @@
 
 module timeMultiplexer (
     input clk,
-    input logic [3:0] s1, s2,
-    output logic [6:0] seg,
     output logic an1, an2,
     output logic signal);
 
@@ -21,7 +19,7 @@ module timeMultiplexer (
         if (counter == 48000) begin
             counter <= 0;
             signal <= ~signal; 
-            if (signal) begin
+            if (~signal) begin
                 an1 <= 1; // turn off an1
                 an2 <= 0; // turn on an2
             end else begin

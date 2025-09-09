@@ -1,37 +1,50 @@
 ----------------------------------------------------------------------
 Report for cell lab2_cw.TECH
-Register bits:  30 of 5280 (0.568%)
+Register bits:  26 of 5280 (0.492%)
 I/O cells:      22
                                   Cell usage:
                                cell     count   Res Usage(%)
                                CCU2        13          100.0
-                            FD1P3XZ        30          100.0
+                            FD1P3XZ        26          100.0
                          HSOSC_CORE         1          100.0
                                  IB         8          100.0
                               IOL_B         2          100.0
                                LUT4        28          100.0
                                  OB        14          100.0
 SUB MODULES
+                              adder         1
+                        sevenSegMux         1
                 sevenSegmentDisplay         1
                     timeMultiplexer         1
-                              TOTAL        98
+                              TOTAL        96
+----------------------------------------------------------------------
+Report for cell sevenSegmentDisplay.v1
+Instance Path : ssd
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         7           25.0
+                              TOTAL         7
 ----------------------------------------------------------------------
 Report for cell timeMultiplexer.v1
 Instance Path : tm
                                   Cell usage:
                                cell     count   Res Usage(%)
                                 FA2        13          100.0
-                            FD1P3XZ        30          100.0
-                         HSOSC_CORE         1          100.0
+                            FD1P3XZ        26          100.0
                               IOL_B         2          100.0
-                               LUT4        21           75.0
-SUB MODULES
-                sevenSegmentDisplay         1
-                              TOTAL        68
+                               LUT4        10           35.7
+                              TOTAL        51
 ----------------------------------------------------------------------
-Report for cell sevenSegmentDisplay.v1
-Instance Path : tm.ssd
+Report for cell adder.v1
+Instance Path : a
                                   Cell usage:
                                cell     count   Res Usage(%)
                                LUT4         7           25.0
                               TOTAL         7
+----------------------------------------------------------------------
+Report for cell sevenSegMux.v1
+Instance Path : ssm
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         4           14.3
+                              TOTAL         4

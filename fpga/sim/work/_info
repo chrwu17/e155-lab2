@@ -1,0 +1,349 @@
+m255
+K4
+z2
+Z0 !s12c _opt2
+Z1 !s99 nomlopt
+R0
+R1
+Z2 !s12c _opt
+R1
+Z3 !s12c _opt1
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R2
+R1
+R2
+R1
+R0
+R1
+R0
+R1
+R3
+R1
+R3
+R1
+R2
+R1
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z4 dC:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim
+T_opt
+!s110 1757384563
+V>UJIz@gDPXB<50h`AE1O_3
+04 21 4 work sevenSegMux_testbench fast 0
+=1-3c22fbe5a2ff-68bf8f73-97-40c8
+R1
+Z5 !s12f OEM25U2 
+Z6 !s12b OEM100
+Z7 !s124 OEM100
+Z8 !s135 nogc
+Z9 o-quiet -auto_acc_if_foreign -work work -L iCE40UP +acc
+Z10 tCvgOpt 0
+n@_opt
+Z11 OL;O;2024.2;79
+R4
+T_opt1
+!s110 1757384256
+VkiUU_N7482HWHGIn[6e^G3
+04 25 4 work timeMultiplexer_testbench fast 0
+=2-3c22fbe5a2ff-68bf8e40-298-355c
+R1
+R5
+R6
+R7
+R8
+R9
+R10
+n@_opt1
+R11
+R4
+T_opt2
+!s110 1757384918
+V[C9hGIUAlh>_eBl^94jnB3
+04 17 4 work lab2_cw_testbench fast 0
+=2-3c22fbe5a2ff-68bf90d6-176-4914
+R1
+!s12f OEM25U5 
+R6
+R7
+R8
+R9
+R10
+n@_opt2
+R11
+vadder
+2C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/adder.sv
+Z12 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z13 !s110 1757384899
+!i10b 1
+!s100 gfMBaU^8kS8dWX?WZ^SaY0
+I<;iX[[8ikghN0CGMMA8>F0
+S1
+Z14 dC:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim
+w1757370199
+8C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/adder.sv
+FC:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/adder.sv
+!i122 207
+L0 6 8
+Z15 VDg1SIo80bB@j0V0VzS_@n1
+Z16 OL;L;2024.2;79
+r1
+!s85 0
+31
+Z17 !s108 1757384899.000000
+!s107 C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/adder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/adder.sv|
+!i113 0
+Z18 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R10
+vadder_testbench
+2C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/adder_testbench.sv
+R12
+R13
+!i10b 1
+!s100 DZdIXf76dAND?lcJ_X5>f2
+Im^0mjzUm=66Va8GRJCBaL1
+S1
+R14
+w1757375938
+8C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/adder_testbench.sv
+FC:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/adder_testbench.sv
+!i122 208
+L0 8 27
+R15
+R16
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/adder_testbench.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/adder_testbench.sv|
+!i113 0
+R18
+R10
+vlab2_cw
+2C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/lab2_cw.sv
+R12
+R13
+!i10b 1
+!s100 T3EfZezWZ>Lmi`;i]EX^W0
+IadjJHd6PmkZVdbm[DQ0EG1
+S1
+R14
+w1757374173
+8C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/lab2_cw.sv
+FC:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/lab2_cw.sv
+!i122 209
+L0 10 16
+R15
+R16
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/lab2_cw.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/lab2_cw.sv|
+!i113 0
+R18
+R10
+vlab2_cw_testbench
+2C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/lab2_cw_testbench.sv
+R12
+Z19 !s110 1757384900
+!i10b 1
+!s100 ;CZQDUQDb6XE6=mN[kYEM3
+I5=Az=;PabF0R^GZ7WFc7O2
+S1
+R14
+w1757384893
+8C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/lab2_cw_testbench.sv
+FC:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/lab2_cw_testbench.sv
+!i122 210
+L0 10 148
+R15
+R16
+r1
+!s85 0
+31
+Z20 !s108 1757384900.000000
+!s107 C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/lab2_cw_testbench.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/lab2_cw_testbench.sv|
+!i113 0
+R18
+R10
+vsevenSegmentDisplay
+2C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegmentDisplay.sv
+R12
+R19
+!i10b 1
+!s100 mL43c66C2e6@UDk>GZRMl0
+IOzY^9H7J>FO;X<IEhPGzS3
+S1
+R14
+w1757198645
+8C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegmentDisplay.sv
+FC:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegmentDisplay.sv
+!i122 211
+L0 8 26
+R15
+R16
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegmentDisplay.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegmentDisplay.sv|
+!i113 0
+R18
+R10
+nseven@segment@display
+vsevenSegmentDisplay_testbench
+2C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegmentDisplay_testbench.sv
+R12
+R19
+!i10b 1
+!s100 JMibS?@?BEjlWFifkc[`11
+IJ[bL]5D1Dc3nE5^jIgUE=2
+S1
+R14
+w1757382652
+8C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegmentDisplay_testbench.sv
+FC:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegmentDisplay_testbench.sv
+!i122 212
+L0 10 43
+R15
+R16
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegmentDisplay_testbench.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegmentDisplay_testbench.sv|
+!i113 0
+R18
+R10
+nseven@segment@display_testbench
+vsevenSegMux
+2C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegMux.sv
+R12
+R19
+!i10b 1
+!s100 EGI@Kj=EhodS:QCWC6Q[<1
+Ii[PN8jc;Qij3lUID@_Zo]2
+S1
+R14
+w1757384230
+8C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegMux.sv
+FC:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegMux.sv
+!i122 213
+L0 8 13
+R15
+R16
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegMux.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegMux.sv|
+!i113 0
+R18
+R10
+nseven@seg@mux
+vsevenSegMux_testbench
+2C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegMux_testbench.sv
+R12
+R19
+!i10b 1
+!s100 DNL_K<IU5jl^WTYaVE99a0
+I:V?zJFQZoefi^l6@5YZDW3
+S1
+R14
+w1757384242
+8C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegMux_testbench.sv
+FC:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegMux_testbench.sv
+!i122 214
+L0 10 40
+R15
+R16
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegMux_testbench.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/sevenSegMux_testbench.sv|
+!i113 0
+R18
+R10
+nseven@seg@mux_testbench
+vtimeMultiplexer
+2C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/timeMultiplexer.sv
+R12
+R19
+!i10b 1
+!s100 k@8]ooNUDkl]1faPZ@9Z50
+IQKbk@JgdDjXNbPNI?jaaI2
+S1
+R14
+w1757384457
+8C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/timeMultiplexer.sv
+FC:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/timeMultiplexer.sv
+!i122 215
+L0 10 23
+R15
+R16
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/timeMultiplexer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/timeMultiplexer.sv|
+!i113 0
+R18
+R10
+ntime@multiplexer
+vtimeMultiplexer_testbench
+2C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/timeMultiplexer_testbench.sv
+R12
+R19
+!i10b 1
+!s100 LA?_Iea@f<5Dba0?[U<b<1
+IeAN:b4R;4Q7f91bb[^<jm0
+S1
+R14
+w1757384443
+8C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/timeMultiplexer_testbench.sv
+FC:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/timeMultiplexer_testbench.sv
+!i122 216
+L0 13 39
+R15
+R16
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/timeMultiplexer_testbench.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/sim/timeMultiplexer_testbench.sv|
+!i113 0
+R18
+R10
+ntime@multiplexer_testbench

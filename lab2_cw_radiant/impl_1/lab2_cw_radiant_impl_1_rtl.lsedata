@@ -1,7 +1,7 @@
 <top name = "lab2_cw"  library = "work"  arch = ""  entry = "Verilog">
 
 <clocks>
-    <clockitem name = "tm/int_osc"  type = "net" />
+    <clockitem name = "clk"  type = "net" />
 </clocks>
 
 <!--

@@ -4,13 +4,13 @@
 set ret 0
 if {[catch {
 
-if {![file exists {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1}]} {
-  file mkdir {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1}
+if {![file exists {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1}]} {
+  file mkdir {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1}
 }
-cd {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1}
+cd {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1}
 
-sys_set_attribute -gui on -msg {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/promote.xml}
-msg_load {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/promote.xml}
+sys_set_attribute -gui on -msg {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/promote.xml}
+msg_load {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/promote.xml}
 des_set_project_udb -in {lab2_cw_radiant_impl_1_map.udb} -out {lab2_cw_radiant_impl_1.udb} -milestone par -pm ice40tp
 des_set_reference_udb -clean
 # par option
@@ -18,13 +18,13 @@ par_set_option { disable_timing_driven false placement_iterations 1 placement_it
 # run place & route
 par_run
 # backup netlist & constraint file
-if {[file exists {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1/lab2_cw_radiant_impl_1_syn.udb}] && [file exists {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1/lab2_cw_radiant_impl_1_map.udb}] && [file exists {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1/lab2_cw_radiant_impl_1.udb}]} {
-  file delete -force {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1/incr/lab2_cw_radiant_impl_1_syn.udb} {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1/incr/lab2_cw_radiant_impl_1_map.udb} {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1/incr/lab2_cw_radiant_impl_1.udb} {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1/incr/lastrun.pdc}
-  file copy -force -- {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1/lab2_cw_radiant_impl_1_syn.udb} {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1/incr/postsyn.udb}
-  file copy -force -- {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1/lab2_cw_radiant_impl_1_map.udb} {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1/incr/postmap.udb}
-  file copy -force -- {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1/lab2_cw_radiant_impl_1.udb} {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1/incr/postpar.udb}
-  if [file exists {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/lab2_cw_pinAssignment.pdc}] {
-    file copy -force -- {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/lab2_cw_pinAssignment.pdc} {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/impl_1/incr/lastrun.pdc}
+if {[file exists {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1/lab2_cw_radiant_impl_1_syn.udb}] && [file exists {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1/lab2_cw_radiant_impl_1_map.udb}] && [file exists {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1/lab2_cw_radiant_impl_1.udb}]} {
+  file delete -force {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1/incr/lab2_cw_radiant_impl_1_syn.udb} {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1/incr/lab2_cw_radiant_impl_1_map.udb} {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1/incr/lab2_cw_radiant_impl_1.udb} {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1/incr/lastrun.pdc}
+  file copy -force -- {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1/lab2_cw_radiant_impl_1_syn.udb} {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1/incr/postsyn.udb}
+  file copy -force -- {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1/lab2_cw_radiant_impl_1_map.udb} {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1/incr/postmap.udb}
+  file copy -force -- {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1/lab2_cw_radiant_impl_1.udb} {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1/incr/postpar.udb}
+  if [file exists {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/lab2_cw_pinAssignment.pdc}] {
+    file copy -force -- {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/lab2_cw_pinAssignment.pdc} {C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/impl_1/incr/lastrun.pdc}
   }
 }
 

@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<userSetting name="C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/promote.xml" version="Diamond (64-bit) 2025.1.0.39.0" date="Sun Sep 07 20:17:24 2025" vendor="Lattice Semiconductor Corporation" >
-  <msg mid="2043018" type="Info" internal="true" />
-  <msg mid="35901209" type="Warning" internal="true" />
-  <msg mid="2043330" type="Warning" internal="true" />
+<userSetting name="C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/promote.xml" version="Diamond (64-bit) 2025.1.0.39.0" date="Mon Sep 08 19:48:20 2025" vendor="Lattice Semiconductor Corporation" >
+  <msg mid="2043318" type="Warning" internal="true" />
   <msg mid="35901328" type="Info" internal="true" />
   <msg mid="35921504" type="Info" internal="true" />
+  <msg mid="2043330" type="Warning" internal="true" />
+  <msg mid="35901209" type="Warning" internal="true" />
+  <msg mid="2043018" type="Info" internal="true" />
+  <msg mid="2043972" type="Info" internal="true" />
+  <msg mid="35901010" type="Error" internal="true" />
+  <msg mid="2043010" type="Error" internal="true" />
+  <msg mid="2043310" type="Info" internal="true" />
 </userSetting>

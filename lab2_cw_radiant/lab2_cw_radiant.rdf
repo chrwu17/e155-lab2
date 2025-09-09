@@ -3,13 +3,19 @@
     <Options/>
     <Implementation title="impl_1" dir="impl_1" description="impl_1" synthesis="lse" default_strategy="Strategy1">
         <Options def_top="lab2_cw"/>
-        <Source name="source/impl_1/lab2_cw.sv" type="Verilog" type_short="Verilog">
-            <Options VerilogStandard="System Verilog" top_module="lab2_cw"/>
-        </Source>
-        <Source name="source/impl_1/sevenSegmentDisplay.sv" type="Verilog" type_short="Verilog">
+        <Source name="../fpga/src/adder.sv" type="Verilog" type_short="Verilog">
             <Options VerilogStandard="System Verilog"/>
         </Source>
-        <Source name="source/impl_1/timeMultiplexer.sv" type="Verilog" type_short="Verilog">
+        <Source name="../fpga/src/lab2_cw.sv" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="System Verilog" top_module="lab2_cw"/>
+        </Source>
+        <Source name="../fpga/src/sevenSegmentDisplay.sv" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="System Verilog"/>
+        </Source>
+        <Source name="../fpga/src/sevenSegMux.sv" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="System Verilog"/>
+        </Source>
+        <Source name="../fpga/src/timeMultiplexer.sv" type="Verilog" type_short="Verilog">
             <Options VerilogStandard="System Verilog"/>
         </Source>
         <Source name="lab2_cw_pinAssignment.pdc" type="Physical Constraints File" type_short="PDC">

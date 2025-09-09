@@ -40,7 +40,44 @@ if (a)
 <BODY>
 
 <DIV id="content" onclick="hideTocList()"><PRE>
+<A name="pn250907204253"></A><B><U><big>pn250907204253</big></U></B>
+#Start recording tcl command: 9/7/2025 20:01:23
+#Project Location: C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant; Project name: lab2_cw_radiant
+prj_create -name "lab2_cw_radiant" -impl "impl_1" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "lse"
+file copy -force -- "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/src/lab2_cw.sv" "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/src/sevenSegmentDisplay.sv" "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/fpga/src/timeMultiplexer.sv" "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/source/impl_1"
+prj_add_source "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/source/impl_1/lab2_cw.sv" "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/source/impl_1/sevenSegmentDisplay.sv" "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/source/impl_1/timeMultiplexer.sv"
+prj_save 
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/lab2_cw_pinAssignment.pdc"
+prj_enable_source "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/lab2_cw_radiant/lab2_cw_pinAssignment.pdc"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 9/7/2025 20:42:53
+
+
+
+<A name="pn250908194336"></A><B><U><big>pn250908194336</big></U></B>
+#Start recording tcl command: 9/8/2025 18:41:40
+#Project Location: C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant; Project name: lab2_cw_radiant
+prj_open "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab2/e155-lab2/lab2_cw_radiant/lab2_cw_radiant.rdf"
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 9/8/2025 19:43:36
+
+
+
 </PRE></DIV>
+
+<DIV id="toc" class="radiant"><span onmousemove="showTocList()">Contents</span>
+<UL id="toc_list">
+<LI><A href=#pn250907204253>pn250907204253</A></LI>
+<LI><A href=#pn250908194336>pn250908194336</A></LI>
+</UL>
+</DIV>
 
 <button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
 <script type="text/javascript">
