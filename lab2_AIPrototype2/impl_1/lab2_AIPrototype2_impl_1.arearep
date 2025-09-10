@@ -1,0 +1,22 @@
+----------------------------------------------------------------------
+Report for cell timemux_sevenSegmentDisplay.TECH
+Register bits:  22 of 5280 (0.417%)
+I/O cells:      17
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2        11          100.0
+                            FD1P3XZ        22          100.0
+                         HSOSC_CORE         1          100.0
+                                 IB         8          100.0
+                               LUT4        20          100.0
+                                 OB         9          100.0
+SUB MODULES
+           lab1_sevenSegmentDisplay         1
+                              TOTAL        72
+----------------------------------------------------------------------
+Report for cell lab1_sevenSegmentDisplay.v1
+Instance Path : decoder
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         7           35.0
+                              TOTAL         7

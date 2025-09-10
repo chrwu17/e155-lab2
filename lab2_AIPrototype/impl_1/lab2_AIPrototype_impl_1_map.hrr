@@ -1,0 +1,10 @@
+---------------------------------------------------
+Report for cell seven_seg_decoder_mux
+   Instance path: seven_seg_decoder_mux
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         40        100.0
+                               LUTGATE	         22        100.0
+                                LUTCCU	         18        100.0
+                                 IOBUF	         26        100.0
+                                PFUREG	         31        100.0

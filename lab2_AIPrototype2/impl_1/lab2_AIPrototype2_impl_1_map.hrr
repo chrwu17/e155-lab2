@@ -1,0 +1,20 @@
+---------------------------------------------------
+Report for cell timemux_sevenSegmentDisplay
+   Instance path: timemux_sevenSegmentDisplay
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         43        100.0
+                               LUTGATE	         21        100.0
+                                LUTCCU	         22        100.0
+                                 IOBUF	         17        100.0
+                                PFUREG	         22        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+              lab1_sevenSegmentDisplay	          1        16.3
+---------------------------------------------------
+Report for cell lab1_sevenSegmentDisplay
+   Instance path: timemux_sevenSegmentDisplay/decoder
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          7        16.3
+                               LUTGATE	          7        33.3
